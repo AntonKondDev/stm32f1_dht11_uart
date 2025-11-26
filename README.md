@@ -1,11 +1,10 @@
-# STM32 DHT11 + UART (HAL) Example
+# STM32 DHT11 + UART (HAL) Example  
 
  Проект на STM32F103C8T6, демонстрирующий считывание температуры и влажности с датчика DHT11 с помощью «битбенгового» протокола и передачу полученных значений по UART.
 
- - [Монтажная схема](./docs/FritzingDiagram.jpg)
- - [Подключение ST-LINK V2](./docs/STLinkV2.jpg)
- - [Распиновка USB-UART CH340G](./docs/usbUART.jpg)
+ - [Cхема подключений](./docs/FritzingDiagram.jpg)
  - [Терминал UART](./docs/DHT11UART.jpg)  
+ - [Подключение ST-LINK V2](./docs/STLinkV2.jpg)
  - [Фото в сборе](./docs/222.jpg)
 
 ## Платформа и инструменты
