@@ -70,9 +70,9 @@ GND всех устройств объединены.
 
 Примечание: перед подключением убедитесь, что на линии DHT11 есть подтягивающий резистор (~4.7 кΩ или 10 кΩ).
 
- - [Монтажная схема](https://github.com/user-attachments/assets/6f4d5bcc-cd08-4d18-9db2-8c4958182d57)
- - [Подключение ST-LINK V2](https://github.com/user-attachments/assets/11cf20ef-1757-43f4-bd80-f0e9caa32841)
- - [Подключение USB-UART CH340G](https://github.com/user-attachments/assets/635f70f6-237e-441c-b5aa-54983d74e659)
+ - [Монтажная схема](./docs/FritzingDiagram.jpg)
+ - [Подключение ST-LINK V2](./docs/STLinkV2.jpg)
+ - [Распиновка USB-UART CH340G](./docs/usbUART.jpg)
 
 ## Конфигурация STM32CubeMX  
 
@@ -119,7 +119,7 @@ Run → Debug   (или Ctrl+F11)
 
 5. Подключите USB-UART конвертер (CH340G) к PA9 (TX) и GND.
 
-6. Запустите любой терминал (например, PuTTY, Tera Term или UART Assistant) с параметрами:  
+6. Запустите любой терминал (например, UART Assistant) с параметрами:  
  - Скорость: 115200 бод
  - Формат: 8 датабит, Без четности, 1 стопбит (8N1)
 
@@ -131,8 +131,8 @@ Run → Debug   (или Ctrl+F11)
 
 ## Фото  
 
- - [Терминал UART](https://github.com/user-attachments/assets/f2a5f389-6457-4f75-9f6d-80e8b486abe2)  
- - [В сборе](https://github.com/user-attachments/assets/f87c732d-34a3-491a-b948-3b8e710a2efd)
+ - [Терминал UART](./docs/DHT11UART.jpg)  
+ - [Фото в сборе](./docs/222.jpg)
 
 ## Связанные проекты  
 
