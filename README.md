@@ -2,7 +2,7 @@
 
  Проект на STM32F103C8T6, демонстрирующий считывание температуры и влажности с датчика DHT11 и передачу полученных значений по UART в терминал ПК. DHT11 использует однопроводный тайминговый протокол, который реализован через bit-banging по GPIO.
 
- - [Электрическая схема](./docs/ElectricalSchematic.png)  
+ - [Электрическая принципиальная схема](./docs/ElectricalSchematic.png)  
  - [Fritzing схема](./docs/FritzingDiagram.jpg)  
  - [PinOut преобразователя USB-UART ch340g](./docs/usbUART.jpg)  
  - [PinOut программатора ST-LINK V2](./docs/STLinkV2.jpg)  
