@@ -1,11 +1,11 @@
 # STM32 DHT11 + UART (HAL) Example  
 
- Проект на STM32F103C8T6, демонстрирующий считывание температуры и влажности с датчика DHT11 и передачу полученных значений по UART. DHT11 использует однопроводный тайминговый протокол, который реализован через bit-banging по GPIO.
+ Проект на STM32F103C8T6, демонстрирующий считывание температуры и влажности с датчика DHT11 и передачу полученных значений по UART в терминал ПК. DHT11 использует однопроводный тайминговый протокол, который реализован через bit-banging по GPIO.
 
  - [Электрическая схема](./docs/ElectricalSchematic.png)  
- - [Fritzing Diagram](./docs/FritzingDiagram.jpg)  
- - [Распиновка преобразователя USB - UART](./docs/usbUART.jpg)  
- - [Подключение ST-LINK V2](./docs/STLinkV2.jpg)  
+ - [Fritzing схема](./docs/FritzingDiagram.jpg)  
+ - [PinOut преобразователя USB-UART ch340g](./docs/usbUART.jpg)  
+ - [PinOut программатора ST-LINK V2](./docs/STLinkV2.jpg)  
  - [Вывод данных в терминал по UART](./docs/DHT11UART.jpg)  
  - [Фото в сборе](./docs/222.jpg)  
 
@@ -54,7 +54,7 @@ stm32-dht11-uart/
 UART (однонаправленная передача):
 
 PA9  (TX, STM32)  ── RX  (USB-UART CH340G)
-GND  (STM32)       ── GND (USB-UART)
+GND  (STM32)      ── GND (USB-UART)
 
 PB5 — вывод данных DHT11 (однопроводной шина).
 
